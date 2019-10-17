@@ -3,6 +3,9 @@ body{
     text-align: center; 
     background-image: url("/css/project\ 1-2\ wallpaper.jpg");
     background-color: transparent;
+    margin: 0px;
+  
+
 }
 
 h1  {
@@ -57,9 +60,18 @@ width: 50px;
 padding: 9px; 
 
 }
- 
-.Toe{
+/*  
+.header-title{
 
+  width: 100%;
+  background-color: rgb(118, 71, 131);  
+  height: 50px;;
+  text-align: center;
+  align-items: center;
+  font-style: italic;  */
+
+  }
+.Toe{
 
 display: inline;
 border: 1px solid aqua; 

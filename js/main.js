@@ -4,7 +4,7 @@ var computerP = 'O'
 var cells = [$('#1'), $('#2'), $('#3'), $('#4'), $('#5'), $('#6'), $('#7'), $('#8'), $('#9')],
 	moveCount = 0          //9 moves means game over
 	turn = 0,             //0 is human. 1 is computer.
-    nonCornerNonCenterSpaces = [1,3,5,7],
+    nonCornerNonCenterSpaces = [0,3,5,7],
     winConditions = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
 
    $('.col').on('click',function(){
